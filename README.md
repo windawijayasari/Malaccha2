@@ -1,9 +1,7 @@
 # Malaccha2
 
 # Description
-This is the advanced tool has been designed to make probability transition matrix in a simple and automatic way named Malaccha2 (Markovian Land Cover Change). The first  Some inputs need to prepare before run the software are MODIS .hdf database, dataset string (type of the MODIS product), boundary shapefile (.shp), reclassification table (.csv), and classes order (.csv). The flowchart for the presented software is presented below.
-
- ![image](https://user-images.githubusercontent.com/16074044/192727445-5177eb14-da33-415a-98d6-dd61dc15db3b.png)
+This is the advanced tool has been designed to make probability transition matrix in a simple and automatic way named Malaccha2 (Markovian Land Cover Change). The first  Some inputs need to prepare before run the software are MODIS .hdf database, dataset string (type of the MODIS product), boundary shapefile (.shp), reclassification table (.csv), and classes order (.csv) and Surface water data (.tif). 
 
 The software is separated into six script files, i.e., the main script and five other scripts that constitute the five subprocesses in the entire process: MODIS dataset loader, MODIS rasters extraction and reclassification, annual transition matrix calculator function, the dataset to transition matrices extractor, and average transition matrix calculator.
 
